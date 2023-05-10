@@ -1,28 +1,23 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  bellinati,
+  boticario,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -36,7 +31,7 @@ export const navLinks = [
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contato",
   },
 ];
 
@@ -76,7 +71,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
- 
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -89,7 +84,7 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
- 
+
   {
     name: "git",
     icon: git,
@@ -108,7 +103,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Grupo Boticário",
-    icon: "starbucks",
+    icon: boticario,
     iconBg: "#383E56",
     date: "March 2022 - Até o momento",
     points: [
@@ -118,39 +113,32 @@ const experiences = [
   {
     title: "Developer",
     company_name: "Bellinati Perez",
-    icon: shopify,
+    icon: bellinati,
     iconBg: "#383E56",
     date: "Jan 2022 - Abr 2022",
     points: [
       "Desenvolvimento de novas funcionalidades em VB.NET, resoluções de bugs e problemas relacionados a código e performances.",
     ],
-  }
+  },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Trabalhar com o Thiago foi uma experiência incrível. Ele tem uma forma única de descomplicar problemas que parecem complicados demais. Seu jeito de trabalhar com JavaScript, ReactJS e NodeJS é de tirar o chapéu. Se você precisa de um desenvolvedor web que seja confiável e saiba o que está fazendo, o Thiago é o cara!",
+    name: "Bruno Lopes",
+    designation: "Senior Developer",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    testimonial: "Eu sempre busco profissionais que estão em constante evolução e o Thiago é um desses. Ele tem um domínio impressionante das tecnologias web e está sempre se atualizando. Além disso, ele manja muito de bancos de dados SQL e NoSQL e tem um jeito todo especial de trabalhar com metodologias ágeis. Sem sombra de dúvidas, eu indicaria o Thiago para qualquer projeto web.",
+    name: "Gabriel Gomes",
+    designation: "Tech Lead",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    testimonial: "Thiago é um verdadeiro profissional! Ele é um especialista em desenvolvimento web, muito ágil, atencioso e talentoso",
+    name: "Lisa Perez",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+
   },
 ];
 
