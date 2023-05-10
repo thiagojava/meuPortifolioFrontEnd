@@ -36,7 +36,7 @@ export const navLinks = [
   },
   {
     id: "contact",
-    title: "Contato",
+    title: "Contact",
   },
 ];
 
@@ -129,20 +129,28 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:"Trabalho de excelente qualidade e dentro do prazo. Atendeu todas expectativas",
-    name: "Bruno Lopes",
-    designation: "Gerente",
-    company: "AM",
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "Sara Lee",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
-    testimonial:"Excelente, recomendo a todos",
-    name: "Gabriel Gomes",
-    designation: "Senior Developer",
-    company: "Bellinati Perez",
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
-    testimonial:"Muito ágil e atencioso",
-    name: "Lisa Perez",
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 

@@ -47,12 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Sou um desenvolvedor de softwares experiente em JavaScript, com
-        conhecimento nos frameworks: ReactJS, NodeJS, Typescript. Além disso
-        possuo uma expertise em metodologias ágeis, ferramentas de
-        versionamento, familiaridade com banco de dados SQL e NOSQL, experiência
-        com comunicação REST, ferramentas de build e boas práticas como TDD e
-        testes unitários
+        Sou um desenvolvedor de software experiente em JavaScript,
+        com conhecimento em frameworks como React, Node.js. Sou um
+        aprendiz rápido e colaboro de perto com os clientes para criar soluções
+        eficientes, escaláveis e amigáveis ao usuário que resolvem problemas
+        do mundo real. Vamos trabalhar juntos para dar vida às suas ideias!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

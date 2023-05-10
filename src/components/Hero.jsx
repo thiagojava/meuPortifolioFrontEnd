@@ -10,17 +10,17 @@ const Hero = () => {
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#b72f2f]' />
-          <div className='w-1 sm:h-80 h-40 bg-[#b72f2f]' />
+          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
+          <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-             Olá, seja <span className='text-[#b72f2f]'>Bem-Vindo</span>
+            Olá, Eu sou o <span className='text-[#915EFF]'>Thiago</span>
           </h1>
-          <p className={`${styles.sectionSubTextHeader} mt-2 text-white-100`}>
-
-            Meu nome é Thiago Dutra e sou desenvolvedor FullStack 
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            Sou desenvolvedor Full Stack, <br className='sm:block hidden' />
+            Trabalho com Interfaces e Aplicações Web
           </p>
         </div>
       </div>
